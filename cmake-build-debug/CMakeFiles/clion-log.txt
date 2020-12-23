@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/rodion/CLionProjects/Algorithms/CompShop
+generated /Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/characteristics.pb.cc;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component.pb.cc;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component_type.pb.cc;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/storage.pb.cc;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/worker.pb.cc /Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/characteristics.pb.h;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component.pb.h;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component_type.pb.h;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/storage.pb.h;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/worker.pb.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug

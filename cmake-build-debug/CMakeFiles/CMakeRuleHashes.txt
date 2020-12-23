@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+9767adeb708e27e4d459683fabaa5d3e characteristics.pb.h
+4e657c8bec19c85a7d018f914e392331 component.pb.h
+413034adc39725ea46b1dd80e97d97c1 component_type.pb.h
+ba430b8c66089af87f18daefc83ba892 storage.pb.h
+e55e0f8c6899094caff6330b9edd0930 worker.pb.h

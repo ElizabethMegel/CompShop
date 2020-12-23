@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CompShop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CompShop">
+				<Option output="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/CompShop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 CompShop"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CompShop/fast">
+				<Option output="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/CompShop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli"/>
+					<Add directory="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 CompShop/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/characteristics.pb.cc">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/characteristics.pb.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/characteristics.pb.h.rule">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component.pb.cc">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component.pb.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component.pb.h.rule">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component_type.pb.cc">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component_type.pb.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/component_type.pb.h.rule">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/storage.pb.cc">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/storage.pb.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/storage.pb.h.rule">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/worker.pb.cc">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/worker.pb.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/cmake-build-debug/worker.pb.h.rule">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/main.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/Context.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/ListModifier.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/StateMachine.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/StateMachine.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/Validator.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/WorkersListModifier.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/commands/AvailableCommand.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/commands/Command.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/commands/CommandToStateType.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/ConsoleIO.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/ConsoleIO.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/IOInterface.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/string_parsers/CommandParser.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/string_parsers/ComponentTypeParser.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/string_parsers/ListModifierParser.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/io/string_parsers/WorkersListModifierParser.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/StateFactory.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/StateInterface.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/StateResult.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/StateType.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/ExitState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/ExitState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/MainMenuState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/MainMenuState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/PersistState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/PersistState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/PersistType.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/AddComponentState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/AddComponentState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/RemoveComponentState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/RemoveComponentState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/ShowComponentState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/ShowComponentState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/ShowComponentsListState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/component_commands/ShowComponentsListState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/AddWorkerState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/AddWorkerState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/RemoveWorkerState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/RemoveWorkerState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/ShowWorkerState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/ShowWorkerState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/ShowWorkersListState.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/cli/states/command_states/worker_commands/ShowWorkersListState.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/ProtoConverter.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/ServiceInterface.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/ShopService.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/ShopService.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/dto/ComponentDTO.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/dto/ComponentDTO.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/dto/WorkerDTO.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/api/dto/WorkerDTO.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/model_api/ModelAPIUtils.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/model_api/ShopModel.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/model_api/ShopModel.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/ShopStorage.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/ShopStorage.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/ShopView.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/ShopView.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/ShopViewMap.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/WorkerIDGenerator.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/WorkerIDGenerator.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/Characteristics.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/ComponentEntity.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/ComponentEntity.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/ComponentInterface.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/ComponentType.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/ComponentFactory.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/GraphicsCard.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/GraphicsCard.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/HardDisk.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/HardDisk.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/MotherPlate.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/MotherPlate.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/Proccessor.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/Proccessor.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/RAM.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/components/component_types/RAM.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/workers/Person.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/workers/Person.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/workers/PhoneNumber.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/workers/Worker.cpp">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/src/core/memory_model/storage/workers/Worker.h">
+			<Option target="CompShop"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.74.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/libboost_date_time-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/libboost_date_time-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/rodion/CLionProjects/Algorithms/CompShop/../../../../../usr/local/lib/cmake/boost_date_time-1.74.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.74.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
